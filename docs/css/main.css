@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Dongle";
+  src: url('../font/Dongle Bold.woff2') format('woff2'),
+    url('../font/Dongle Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Dongle-Regular";
+  src: url('../font/Dongle Regular.woff2') format('woff2'),
+    url('../font/Dongle Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: Regular;
+}
+
+@font-face {
+  font-family: "Dongle-Light";
+  src: url('../font/Dongle Light.woff2') format('woff2'),
+    url('../font/Dongle Light.woff') format('woff');
+  font-weight: normal;
+  font-style: Light;
+}
+
+:root {
+  --light: #FAFCFF;
+  --bright: #fff;
+  --medium: #fafafa;
+  --primary: #004cff;
+  --secondary: #ffd500;
+  : #ff0033;
+  --background: #ddc3b2;
+  --general: #1cb0f6;
+  --text: black;
+  --dark: #1d1d1d;
+  --spacing-sm: 0.5rem;
+  --spacing-base: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 7rem;
+  --spacing-xl: 10rem;
+  --rounded-base: 1.5rem;
+  --text-base: 1rem;
+  --text-md: 1.5rem;
+  --text-lg: 2rem;
+  --text-xl: 4rem;
+}
+
+body {
+  background-color: var(--background);
+}
+
+header {
+  border: solid transparent;
+  background-color: var(--general);
+  color: var(--bright);
+  height: 5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-family: Dongle;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: Dongle-Regular;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: Dongle-Regular;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: Dongle-Light;
+  font-size:2rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  max-width: 100vh;
+  color: var(--text);
+  padding: 3rem;
+}
+
+.gif {
+  width: 50%;
+  height: 50%;
+}
+
+button {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 1rem;
+  border-width: 0 0 0.25rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  margin: 0;
+  padding: 0.813rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+button:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 1rem;
+  border-width: 0 0 0.25rem;
+  bottom: -0.25rem;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.button-link {
+  color: var(--bright);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+video {
+  width: 70%;
+  height: 70%;
+}
+
+footer {
+  background-color: var(--general);
+  color: var(--bright);
+  padding: var(--spacing-sm);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 16px;
+}
