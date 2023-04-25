@@ -1,2 +1,8 @@
 # atwork2-project-1-workshop
-Voor @work 2 werden we in groepen van 2 verdeeld en kregen we de opdracht om een game te maken met HTML, CSS en JavaScript en een bijhorende tutorial hoe deze game te maken.
+-------------------------------------------------------
+For @work 2 we were divided into groups of 2 and given the assignment to make a game with HTML, CSS and JavaScript and an accompanying tutorial on how to make this game.
+
+# Authors
+-------------------------------------------------------
+Lennert Vermoesen &
+Stef Van Boven (myself)
